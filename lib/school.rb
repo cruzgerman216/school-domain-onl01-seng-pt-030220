@@ -5,6 +5,9 @@ class School
   attr_reader :name
   def initialize(name)
     @name = name
-    @roster =[]
+    @roster ={}
+  end
+  def add_student(name,grade)
+    roster[grade].push(name)
   end
 end
