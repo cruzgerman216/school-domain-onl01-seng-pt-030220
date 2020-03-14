@@ -18,4 +18,4 @@ end
 
 
 test = {}
-puts test{"graeat"}
+puts test["test"]
