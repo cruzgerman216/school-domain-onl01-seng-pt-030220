@@ -17,6 +17,12 @@ class School
   def grade(num)
     roster[num]
   end
+
+  def sort
+    roster.each |grade|
+      grade.sort
+    end
+  end
 end
 
 
