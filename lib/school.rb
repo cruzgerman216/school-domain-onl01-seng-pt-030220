@@ -15,3 +15,7 @@ class School
 
   end
 end
+
+
+test = {}
+puts test{"graeat"}
