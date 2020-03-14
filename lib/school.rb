@@ -12,7 +12,10 @@ class School
       roster[grade] = []
     end
     roster[grade].push(name)
+  end
 
+  def grade(num)
+    roster[num]
   end
 end
 
