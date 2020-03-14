@@ -8,6 +8,8 @@ class School
     @roster ={}
   end
   def add_student(name,grade)
+    roaster[grade] = []
     roster[grade].push(name)
+    
   end
 end
