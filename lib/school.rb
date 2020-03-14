@@ -1,10 +1,10 @@
 # code here!
 
-class School 
+class School
   attr_reader :name
   def initialized(name)
-    @name = name   
+    @name = name
   end
 
-  
+
 end
